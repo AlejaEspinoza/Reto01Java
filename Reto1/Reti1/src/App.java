@@ -142,8 +142,8 @@ public class App {
         double distancia = distancias[planetaseleccionado];
         double combustible = distancia * consumoCombustible[naveSeleccionada];
         double oxigeno = distancias[planetaseleccionado] * 100;
-        System.out.println("El combustible nesesario es: " + combustible);
-        System.out.println("la cantidad de unidades de oxigeno necesario es:" + oxigeno);
+        System.out.println("El combustible nesesario es: " + combustible + Litros);
+        System.out.println("la cantidad de unidades de oxigeno necesario es:" + oxigeno + unidades);
          
     }
         
